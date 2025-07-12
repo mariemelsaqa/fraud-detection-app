@@ -46,8 +46,8 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-## Example Prediction Output
-<img src="assets/example_output.png" width="700"/>
+### 📸 Example Prediction Output
+<img src="example_output.png" width="700"/>
 
 ## 🔍 Model Overview
 
