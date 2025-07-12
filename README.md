@@ -6,11 +6,11 @@ This project is an intelligent fraud detection system built using **XGBoost** an
 
 ## 📌 Features
 
-- ⚡ High-accuracy fraud prediction using `XGBoost`
-- 🧠 SHAP visualizations to interpret model decisions
-- 🧾 Clean UI built with `Streamlit`
-- 📈 Fraud probability gauge chart
-- ✅ Feature engineering for improved performance
+-  High-accuracy fraud prediction using `XGBoost`
+-  SHAP visualizations to interpret model decisions
+-  Clean UI built with `Streamlit`
+-  Fraud probability gauge chart
+-  Feature engineering for improved performance
 
 ---
 
@@ -51,22 +51,22 @@ streamlit run app.py
 
 ## 🔍 Model Overview
 
-    ✅ Trained on a real-world financial transactions dataset
+     Trained on a real-world financial transactions dataset
 
-    ⚖️ Balanced using SMOTE to handle class imbalance
+     Balanced using SMOTE to handle class imbalance
 
-    🛠️ Engineered features: diffOrig, diffDest for better signal
+     Engineered features: diffOrig, diffDest for better signal
 
-    🔄 Label encoded categorical feature: type (e.g., CASH_OUT → 2)
+     Label encoded categorical feature: type (e.g., CASH_OUT → 2)
 
 ## 📁 Project Structure
 ```bash
 ├── app.py                 # Main Streamlit app
+├── Fraud.ipynb            # Notebook for data exploration / model training
 ├── fraud_xgb_model.pkl    # Trained XGBoost model
 ├── label_encoder.pkl      # Label encoder for 'type'
 ├── requirements.txt       # Required Python packages
 ├── README.md              # Project documentation
-└── assets/
-    └── example_output.png # Screenshot showing app prediction output
+└── example_output.png     # Screenshot showing app prediction output
 ```
 
